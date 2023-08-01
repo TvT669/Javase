@@ -1,9 +1,10 @@
 import java.util.Scanner;
-public class Switch01{
-	public static void main(String[]args){
+
+public class Switch01 {
+	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		char n = scanner.next().charAt(0);
-		switch(n){
+		switch (n) {
 			case 'a':
 				System.out.println("星期一");
 				break;
@@ -26,7 +27,7 @@ public class Switch01{
 			case 'g':
 				System.out.println("星期日");
 				break;
-			default :
+			default:
 				System.out.println("请输入正确的编号");
 		}
 
