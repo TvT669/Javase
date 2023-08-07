@@ -63,7 +63,6 @@ public class SmallChangeSys {
                   if("y".equals(choice)){
                       loop = false;
                       break;
-
                   }
 
                default:

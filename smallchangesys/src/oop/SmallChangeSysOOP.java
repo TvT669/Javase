@@ -82,10 +82,6 @@ public class SmallChangeSysOOP {
         if("y".equals(choice)){
             loop = false;
             return;
-
         }
-
-
     }
-
 }
