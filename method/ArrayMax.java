@@ -1,6 +1,6 @@
 public class ArrayMax {
 	public static void main(String[] args) {
-		double[] array = {};
+		double[] array = {1,2,3,4,5,6,7,8,9};
 		A01 a = new A01();
 		Double rest = a.Max(array);
 		if (rest != null) {
