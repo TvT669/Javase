@@ -15,12 +15,12 @@ public class CheckingAccount extends BankAccount {
     }
 
     @Override
-    public double deposit(double account) {
-        return super.deposit(account-commission);
+    public void deposit(double account) {
+         super.deposit(account-commission);
     }
 
     @Override
-    public double withdraw(double account) {
-        return super.withdraw(account+commission);
+    public void withdraw(double account) {
+         super.withdraw(account+commission);
     }
 }

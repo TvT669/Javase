@@ -6,11 +6,11 @@ public class BankAccount {
     public BankAccount(double balance) {
         this.balance = balance;
     }
-    public double deposit(double account){
-        return balance += account;
+    public void deposit(double account){
+         balance += account;
     }
-    public double withdraw(double account){
-        return balance -= account;
+    public void withdraw(double account){
+         balance -= account;
     }
 
     public double getBalance() {
