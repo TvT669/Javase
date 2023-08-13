@@ -52,12 +52,12 @@ public class HouseService {
     public boolean del(int delId){
         int index = -1;
         for (int i = 0; i < houseNum; i++) {
-            if(delId != houses[i].getId()){
-                return false;
-            }
             if(delId == houses[i].getId()){
                 index = i;
             }
+            }
+        if(index == -1){
+            return false;
         }
         for (int i = index; i < houseNum-1; i++) {
             houses[i] = houses[i+1];//往前移
